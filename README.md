@@ -6,6 +6,9 @@
 * Produces a NFT with a centred 3 word combination a somewhat random combination from 3 word arrays
 * NFT's in this case are SVG's encoded along with the metadata so the NFT is onchain rather than using an external server or IPFS.
 * Will look to refresh the UI once I get a better grasp of react.
+* Deployed on eth testnet Rinkeby
+* Final collection here https://testnets.opensea.io/collection/scnft-zpgd6mu6gn
+* Added mint limitation function stop minting at 5 NFT's before throwing an exception when it hit <=4 tokenId's
 
 ![randomNoise](https://user-images.githubusercontent.com/37803492/163331314-46f09d87-8832-4a7e-96a4-e2f161970ca1.PNG)
 
