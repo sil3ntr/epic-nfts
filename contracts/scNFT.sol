@@ -58,6 +58,7 @@ contract scNFT is ERC721URIStorage {
     // A function our user will hit to get their NFT.
     function makeAnSCNFT() public {
     // Get the current tokenId, this starts at 0.
+    // Added function below to limit the mint number to 5 in total
     uint256 newItemId = _tokenIds.current();
         require(
                 _tokenIds.current() <= 4,
